@@ -1,24 +1,34 @@
-# README
+# Redcarpet Gem Example
+Demonstrates the use of redcarpet gem for markdown support in text with the help of coderay gem for syntax highlighting.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Description
+The project have been implemented to demonstrate how we can use redcarpet gem to make pages supporting markdown in ruby on rails framework.
 
-Things you may want to cover:
+## Install
+To setup project locally, follow below instructions.
 
-* Ruby version
+### Project Configuration
+Have ruby version ruby-2.7.2 installed as mentioned in Gemfile.
 
-* System dependencies
+Install necessary dependencies.
+```bash
+# install dependencies mentioned in Gemfile
+$ bundle install
 
-* Configuration
+# verification of already installed files in node_modules
+$ yarn install --check-files
+```
 
-* Database creation
+### Database Setup
+Create and Initialize database.
+```bash
+# migration of database
+$ rails db:migrate
+```
 
-* Database initialization
+### Starting the server
+To start the server on localhost run the command below. The server will start on default port 3000.
+```bash
+$ rails s
+```
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
