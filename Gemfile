@@ -25,6 +25,11 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
 
+# A fast, safe and extensible Markdown to (X)HTML parser.
+gem 'redcarpet'
+# Fast and easy syntax highlighting for selected languages.
+gem 'coderay'
+
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.4.4', require: false
 
