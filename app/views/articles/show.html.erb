@@ -7,7 +7,7 @@
 
 <p>
   <strong>Content:</strong>
-  <%= @article.content %>
+  <%= markdown(@article.content) %>
 </p>
 
 <%= link_to 'Edit', edit_article_path(@article) %> |
